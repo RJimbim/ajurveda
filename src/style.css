@@ -1,0 +1,39 @@
+* {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    height: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+}
+body {
+    background: url("https://ajurvedosakademija.lt/wp-content/themes/academia/dist/images/bg.jpg") top no-repeat, url("https://ajurvedosakademija.lt/wp-content/themes/academia/dist/images/bg_repeat.jpeg") top repeat;
+    background-size: 100%;
+    height: inherit;
+    color: #fff;
+    min-height: 100%;
+    width: 100%;
+    /* border: 5px dashed red; */
+    
+}
+#root {
+    height: calc(100vh - 10px);
+    /* border: 5px dashed green; */
+}
+.App {
+    height: inherit;
+    /* position: relative; */
+    /* min-height: 100vh; */
+    /* padding-bottom: 2.5rem; */
+}
+.page-wrap {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 2.5rem; */
+}
+

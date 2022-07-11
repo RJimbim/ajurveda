@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Pagrindinis",
+        "icon": "bi-gear-fill"
+      
+    },
+    {
+        "title": "Naujienos",
+        "icon": "bi-info-circle-fill"
+    },
+    {
+        "title": "Mokymai",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "RENGINIŲ PLANAS",
+                "path": "/profile"
+            },
+            {
+                "title": "APIE AJURVEDĄ",
+                "childrens": [
+                    {
+                        "title": "Account",
+                        "path": "/settings/account"
+                    },
+                    {
+                        "title": "Billing",
+                        "childrens": [
+                            {
+                                "title": "Payment",
+                                "path": "/settings/billing/payment"
+                            },
+                            {
+                                "title": "Subscription",
+                                "path": "/settings/billing/subscription"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Notifications",
+                        "path": "/settings/notifications"
+                    }
+                ]
+            },
+            {
+                "title": "STUDIJOS",
+                "path": "/logout"
+            },
+            {
+                "title": "SEMINARAI",
+                "path": "/logout"
+            },
+            {
+                "title": "STOVYKLOS",
+                "path": "/logout"
+            },
+            {
+                "title": "KITA",
+                "path": "/logout"
+            },
+            {
+                "title": "LEKTORIAI",
+                "path": "/logout"
+            },
+            {
+                "title": "ATSILIEPIMAI",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "title": "Leidyba",
+        "icon": "bi-view-list"
+    },
+    {
+        "title": "Sveikatinimas",
+        "icon": "bi-view-list"
+    },
+    {
+        "title": "Galerija",
+        "icon": "bi-view-list"
+    },
+    {
+        "title": "Login",
+        "icon": "bi-view-list"
+    }
+]

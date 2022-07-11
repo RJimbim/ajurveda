@@ -1,0 +1,24 @@
+.newsList {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+}
+
+.naujienos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 80vw;
+    height: 300px;
+}
+.news-title {
+    color: #ffa400;
+    margin: 0.5rem;
+
+}
+.news-desc {
+    margin: 0.5rem;
+}
+.news-image {
+    width: 20vw;
+}

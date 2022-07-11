@@ -1,0 +1,33 @@
+.gallery-grid {
+    color:green
+}
+.block {
+    display: flex;
+    flex-direction: column;
+}
+.leidyba {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    list-style-position: inside;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+    margin: 1rem;
+}
+.knygos {
+    /* display: table; */
+    text-align: left;
+    list-style-type: decimal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #ffa400;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+    margin: 1rem;
+}
+
+
+@media (max-width: 400px) {
+    .gallery-grid {
+        color: red
+    }
+}
